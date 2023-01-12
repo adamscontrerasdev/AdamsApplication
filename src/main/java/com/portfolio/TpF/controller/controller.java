@@ -48,7 +48,6 @@ public class controller {
         persoser.crearPersona(perso);
     }
 
-    @CrossOrigin(origins = "http://localhost:4200")
     @PutMapping("/edit/persona")
     public void editarPersonas(@RequestBody persona perso) {
         persoser.editarPersona(perso);
